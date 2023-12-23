@@ -1,0 +1,180 @@
+<div class="e-content" *ngIf="!isPhoneviewed">
+
+  <mat-stepper style="background-color: transparent;">
+    <mat-step label="Ewave Mobile" state="location">
+      <ng-template matStepLabel state="chat"><b class="marked">1/2023 - Now </b>
+        <b class="desc"> Ewave</b></ng-template>
+      <ng-template matStepContent>
+        <div class="desc">
+          <h4 class="marked">FS Developer</h4>
+          <p>
+            Developed multiple projects from scratch using C#, asp.net and angular.
+            Compiled and configured projects to desktop apps as well as web applications.
+            Created SQL Server Jobs and complicated procedures maintaining
+            sufficient data storage, transfer and digest while preserving user-friendly response time.
+             Acquired knowledge about cyber security, preforming
+            penetration testing (using Burp Suite) and implementing methods for data protection.
+
+          </p>
+        </div>
+        <div class="arrows">
+          <span class="space"></span>
+          <button mat-icon-button color="accent" matStepperNext><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+      </ng-template>
+    </mat-step>
+    <mat-step label="Elad Health">
+      <ng-template matStepLabel state="chat"><b class="marked">6/2022 - 1/2023 </b>
+        <b class="desc"> Elad</b></ng-template>
+      <ng-template matStepContent>
+        <div class="desc">
+          <h4>QA Tester</h4>
+          <p>
+            Full-time QA tester, works with SQL Server Management Running
+            procedures and writing complex queries on daily basisPart of an
+            Agile team, full cooperation with the developers and
+            Product. Managing work using Jenkins & TFS.
+          </p>
+        </div>
+        <div class="arrows">
+          <button mat-icon-button color="accent" matStepperPrevious><mat-icon>arrow_back</mat-icon></button>
+          <span class="space"></span>
+          <button mat-icon-button color="accent" matStepperNext><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+      </ng-template>
+    </mat-step>
+    <mat-step label="Finbot">
+      <ng-template matStepLabel><b class="marked">1/2022 - 6/2022 </b><b class="desc"> Finbot</b></ng-template>
+      <ng-template matStepContent>
+        <div class="desc">
+          <h4>Product Manager</h4>
+          <p>
+            Promoted from QA to Product managerWas given the
+            opportunity to study Data System Analytics.
+            Managed Sprints, Backlog and Roadmap of the product.
+            Conducted Daily, Bi-weekly and Retrospectives meetings.
+            Worked alongside with the Dev team, understanding the system backend
+            structure and technology.
+
+          </p>
+        </div>
+        <div class="arrows">
+          <button mat-icon-button color="accent" matStepperPrevious><mat-icon>arrow_back</mat-icon></button>
+          <span class="space"></span>
+          <button mat-icon-button color="accent" matStepperNext><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+      </ng-template>
+    </mat-step>
+    <mat-step label="Finbot">
+      <ng-template matStepLabel><b class="marked">6/2020 - 1/2022 </b><b class="desc"> Finbot</b></ng-template>
+      <ng-template matStepContent>
+        <div class="desc">
+          <h4>QA Tester </h4>
+          <p>
+            Up to January 2022 I performed manual QA testing on a dedicated local environment,
+            Testing specific branches as well as the main branch,
+            Worked with Jira and BitBucket,
+            navigating through fixes and commits.
+            Learned to use the tools around me to meet
+            requirements and achieve team goals (Dev Tools, Git,
+            Google Analytics and more).
+          </p>
+        </div>
+        <div class="arrows">
+          <button mat-icon-button color="accent" matStepperPrevious><mat-icon>arrow_back</mat-icon></button>
+          <span class="space"></span>
+        </div>
+      </ng-template>
+    </mat-step>
+  </mat-stepper>
+</div>
+
+
+
+  <div class="e-content-phone" *ngIf="isPhoneviewed">
+
+    <mat-stepper style="background-color: transparent;">
+      <mat-step label="Ewave Mobile" state="location">
+        <ng-template matStepContent>
+          <div class="desc-phone">
+            <h3><b class="marked">Ewave</b></h3>
+            <h4 >FS Developer | <b class="marked">1/2023 - Now </b></h4>
+            <p>
+              Developed multiple projects from scratch using C#, asp.net and angular.
+              Compiled and configured projects to desktop apps as well as web applications.
+              Created SQL Server Jobs and complicated procedures maintaining
+              sufficient data storage, transfer and digest while preserving user-friendly response time.
+               Acquired knowledge about cyber security, preforming
+              penetration testing (using Burp Suite) and implementing methods for data protection.
+  
+            </p>
+          </div>
+          <div class="arrows">
+            <span class="space"></span>
+            <button mat-icon-button color="accent" matStepperNext><mat-icon>arrow_forward</mat-icon></button>
+          </div>
+        </ng-template>
+      </mat-step>
+      <mat-step label="Elad Health">
+        <ng-template matStepContent>
+          <div class="desc-phone">
+            <h3><b class="marked">Elad</b></h3>
+            <h4>QA Tester | <b class="marked">6/2022 - 1/2023 </b></h4>
+            <p>
+              Full-time QA tester, works with SQL Server Management Running
+              procedures and writing complex queries on daily basisPart of an
+              Agile team, full cooperation with the developers and
+              Product. Managing work using Jenkins & TFS.
+            </p>
+          </div>
+          <div class="arrows">
+            <button mat-icon-button color="accent" matStepperPrevious><mat-icon>arrow_back</mat-icon></button>
+            <span class="space"></span>
+            <button mat-icon-button color="accent" matStepperNext><mat-icon>arrow_forward</mat-icon></button>
+          </div>
+        </ng-template>
+      </mat-step>
+      <mat-step label="Finbot">
+        <ng-template matStepContent>
+          <div class="desc-phone">
+            <h3><b class="marked">Finbot</b></h3>
+            <h4>Product Manager | <b class="marked">1/2022 - 6/2022 </b></h4>
+            <p>
+              Promoted from QA to Product managerWas given the
+              opportunity to study Data System Analytics.
+              Managed Sprints, Backlog and Roadmap of the product.
+              Conducted Daily, Bi-weekly and Retrospectives meetings.
+              Worked alongside with the Dev team, understanding the system backend
+              structure and technology.
+  
+            </p>
+          </div>
+          <div class="arrows">
+            <button mat-icon-button color="accent" matStepperPrevious><mat-icon>arrow_back</mat-icon></button>
+            <span class="space"></span>
+            <button mat-icon-button color="accent" matStepperNext><mat-icon>arrow_forward</mat-icon></button>
+          </div>
+        </ng-template>
+      </mat-step>
+      <mat-step label="Finbot">
+        <ng-template matStepContent>
+          <div class="desc-phone">
+            <h3><b class="marked">Finbot</b></h3>
+            <h4>QA Tester | <b class="marked">6/2020 - 1/2022 </b></h4>
+            <p>
+              Up to January 2022 I performed manual QA testing on a dedicated local environment,
+              Testing specific branches as well as the main branch,
+              Worked with Jira and BitBucket,
+              navigating through fixes and commits.
+              Learned to use the tools around me to meet
+              requirements and achieve team goals (Dev Tools, Git,
+              Google Analytics and more).
+            </p>
+          </div>
+          <div class="arrows">
+            <button mat-icon-button color="accent" matStepperPrevious><mat-icon>arrow_back</mat-icon></button>
+            <span class="space"></span>
+          </div>
+        </ng-template>
+      </mat-step>
+    </mat-stepper>

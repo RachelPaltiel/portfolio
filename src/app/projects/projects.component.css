@@ -1,0 +1,23 @@
+.card {
+    margin: 2%;
+    margin-left: 4%;
+    padding: 3%;
+    font-size: larger;
+    background-color: transparent;
+    width: fit-content;
+    color: #bdecee;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+.marked {
+    color: #006064;
+}
+
+.actions {
+    width: 18vw;
+    margin: 4%;
+    color: #bdecee;
+}

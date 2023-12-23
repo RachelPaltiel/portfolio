@@ -1,0 +1,88 @@
+<div class="e-content" *ngIf="!isPhoneviewed">
+    <mat-accordion>
+        <mat-expansion-panel [expanded]="step === 0" (opened)="setStep(0)" hideToggle
+            style="background-color: transparent;">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <div class="info-div">
+                        <b class="desc">Data System Analysis </b>
+                        <span class="space"></span>
+                        <b class="marked">2021 - 2023</b>
+                        <span class="space"></span>
+                        <b class="desc">Technion TLV</b>
+                    </div>
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-action-row>
+                <button mat-button color="primary" (click)="nextStep()">Next</button>
+            </mat-action-row>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel [expanded]="step === 1" (opened)="setStep(1)" hideToggle
+            style="background-color: transparent;">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <div class="info-div">
+                        <b class="desc">Bookeeping & Payroll</b>
+                        <span class="space"></span>
+                        <b class="marked">2016 - 2018</b>
+                        <span class="space"></span>
+                        <b class="desc">Ziv Haft BDO</b>
+                    </div>
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-action-row>
+                <button mat-button color="warn" (click)="prevStep()">Previous</button>
+                <button mat-button color="primary" (click)="nextStep()">Next</button>
+            </mat-action-row>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(2)" hideToggle
+            style="background-color: transparent;">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <div class="info-div">
+                        <b class="desc">HighSchool Graduate </b>
+                        <span class="space"></span>
+                        <b class="marked">2014 - 2016</b>
+                        <span class="space"></span>
+                        <b class="desc"> Hila Program</b>
+                    </div>
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-action-row>
+                <button mat-button color="warn" (click)="prevStep()">Previous</button>
+                <button mat-button color="primary" (click)="nextStep()">End</button>
+            </mat-action-row>
+        </mat-expansion-panel>
+
+    </mat-accordion>
+</div>
+
+<div class="e-content-phone" *ngIf="isPhoneviewed">
+
+    <div class="info-div-phone">
+        <b class="desc">Data System Analysis </b>
+        <span class="space"></span>
+        <b class="marked">2021 - 2023</b>
+        <span class="space"></span>
+        <b class="desc">Technion TLV</b>
+    </div>
+
+    <div class="info-div-phone">
+        <b class="desc">Bookeeping & Payroll</b>
+        <span class="space"></span>
+        <b class="marked">2016 - 2018</b>
+        <span class="space"></span>
+        <b class="desc">Ziv Haft BDO</b>
+    </div>
+
+    <div class="info-div-phone">
+        <b class="desc">HighSchool Graduate </b>
+        <span class="space"></span>
+        <b class="marked">2014 - 2016</b>
+        <span class="space"></span>
+        <b class="desc"> Hila Program</b>
+    </div>
+
+</div>

@@ -1,17 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-tech-stack',
+  templateUrl: './tech-stack.component.html',
+  styleUrls: ['./tech-stack.component.css']
 })
-export class AppComponent {
-  title = 'portfolio';
-  color: string = 'primary'
-  currentR?: string;
+export class TechStackComponent {
 
   isPhoneviewed = false;
 
@@ -34,6 +30,5 @@ export class AppComponent {
 
       });
   }
-
 
 }

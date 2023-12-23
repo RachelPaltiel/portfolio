@@ -1,0 +1,86 @@
+<mat-grid-list cols="4" rowHeight="4:1" *ngIf="!isPhoneviewed">
+  <mat-grid-tile colspan="3" rowspan="3">
+    <mat-card class="card">
+      <mat-card-title>
+        <h4>This website</h4>
+      </mat-card-title>
+      <mat-card-content>
+        <p>
+          <b class="marked">This website</b> was developed using <b class="marked">Angular</b>.
+          It was designed & coded by me to demonstrate <b>different techniques</b>.
+          You can find here information about my experiense, achivements and skills.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="4">
+    <mat-card class="card">
+      <mat-card-title>
+        <h4>Rachel Paltiel</h4>
+        <button mat-raised-button matTooltip="email address" color="primary" class="actions">
+          <mat-icon>alternate_email</mat-icon>rachel.paltiel21@gmail.com
+        </button>
+        <button mat-raised-button matTooltip="phone number" color="primary" class="actions">
+          <mat-icon>call</mat-icon>0526100245
+        </button>
+        <button (click)="downloadPdf()" mat-raised-button matTooltip="download CV" color="primary" class="actions">
+          <mat-icon>download</mat-icon>Download CV
+        </button>
+      </mat-card-title>
+    </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="3" rowspan="2">
+    <mat-card class="card">
+      <mat-card-title>
+        <h4>In short</h4>
+      </mat-card-title>
+      <mat-card-content>
+        <p class="mat-card-content">
+          <b class="marked">Full Stack Developer</b> specialized in C#, Typescript,
+          asp.net and angular frameworks.
+          <b class="marked">Autodidact</b> and focused learner, creative when it comes to <b>problem solving</b>.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<div *ngIf="isPhoneviewed" class="content-phone">
+
+  <h4>This website</h4>
+
+  <p>
+    <b class="marked">This website</b> was developed using <b class="marked">Angular</b>.
+    It was designed & coded by me to demonstrate <b>different techniques</b>.
+    You can find here information about my experiense, achivements and skills.
+  </p>
+
+
+  <h4>In short</h4>
+
+  <p class="mat-card-content">
+    <b class="marked">Full Stack Developer</b> specialized in C#, Typescript,
+    asp.net and angular frameworks.
+    <b class="marked">Autodidact</b> and focused learner, creative when it comes to <b>problem solving</b>.
+  </p>
+
+  <div class="actions-phone">
+
+    <button (click)="downloadPdf()" mat-stroked-button matTooltip="download CV" color="primary" class="button-phone">
+      <mat-icon>download</mat-icon>Download CV
+    </button>
+
+    <button mat-stroked-button matTooltip="download CV" color="primary" class="button-phone">
+      <mat-icon>call</mat-icon>0526100245
+    </button>
+
+    <button mat-stroked-button matTooltip="download CV" color="primary" class="button-phone">
+      <mat-icon>alternate_email</mat-icon>rachel.paltiel21@gmail.com
+    </button>
+
+
+
+
+  </div>
+
+</div>

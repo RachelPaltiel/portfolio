@@ -1,0 +1,215 @@
+<mat-grid-list cols="5" rows="5" class="s-content" *ngIf="!isPhoneviewed">
+
+    <mat-grid-tile colspan="4" rowspan="1">
+
+        <div class="stack-div">
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>TS</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="80"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>JS</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="60"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>Angular</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="85"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>Ionic</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="90"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+
+
+        </div>
+
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1" rowspan="2">
+        <div class="stack-div-colum">
+            <mat-chip-listbox>
+                <mat-chip-option disabled="true" selected color="primary">Git</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">BitBucket</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">SVN</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">Postman</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">Swagger</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">Burp Suit</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">Jira</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">Monday</mat-chip-option>
+                <mat-chip-option disabled="true" selected color="primary">TFS</mat-chip-option>
+
+            </mat-chip-listbox>
+        </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="4" rowspan="1">
+        <div class="stack-div">
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>C#</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="80"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>SQL</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="60"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>ASP.NET</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="90"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+
+            <mat-card style="background-color: transparent; margin: 2%;">
+                <mat-card-content class="stack-card">
+                    <h5>MongoDb</h5>
+
+                    <mat-progress-spinner color="primary" mode="determinate" value="90"
+                        style="height: 60px; width: 60px;">
+                    </mat-progress-spinner>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </mat-grid-tile>
+
+</mat-grid-list>
+
+
+<div class="s-content-phone" *ngIf="isPhoneviewed">
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>TS</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="80"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>JS</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="60"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>Angular</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="85"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>Ionic</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="90"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+
+
+</div>
+
+<div class="s-content-phone">
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>C#</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="80"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>SQL</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="60"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>ASP.NET</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="90"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card style="background-color: transparent; margin: 2%;">
+        <mat-card-content class="stack-card">
+            <h5>MongoDb</h5>
+
+            <mat-progress-spinner color="primary" mode="determinate" value="90"
+                style="height: 40px; width: 40px;">
+            </mat-progress-spinner>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<div>
+    <mat-chip-listbox>
+        <mat-chip-option disabled="true" selected color="primary">Git</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">BitBucket</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">SVN</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">Postman</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">Swagger</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">Burp Suit</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">Jira</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">Monday</mat-chip-option>
+        <mat-chip-option disabled="true" selected color="primary">TFS</mat-chip-option>
+
+    </mat-chip-listbox>
+</div>
+

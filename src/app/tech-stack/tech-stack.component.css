@@ -1,0 +1,52 @@
+
+
+.stack-div {
+    margin: 1%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: transparent;
+    color: #bdecee;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: -webkit-fill-available;
+}
+
+.stack-div-colum {
+    padding: 2%;
+    background-color: transparent;
+    color: #bdecee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12vw;
+    justify-content: center;
+}
+
+.stack-card {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+.marked {
+    color: #006064;
+}
+
+.s-content-phone {
+    margin: 1%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: transparent;
+    color: #bdecee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: -webkit-fill-available;
+}

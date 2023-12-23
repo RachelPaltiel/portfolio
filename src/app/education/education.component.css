@@ -1,0 +1,49 @@
+.e-content {
+    margin: 2%;
+    margin-left: 4%;
+    padding: 3%;
+}
+
+.info-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+.desc {
+    font-size: larger;
+    background-color: transparent;
+    color: #bdecee;
+}
+
+.mat-step-icon-content  {
+    display: none;
+}
+
+.marked {
+    color: #006064;
+    font-size: larger;
+
+}
+
+.e-content-phone {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.info-div-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6%;
+    padding: 2%;
+}

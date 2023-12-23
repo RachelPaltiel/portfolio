@@ -1,0 +1,39 @@
+.background {
+    background-color: #000f10;
+    width: 100vw;
+    height: 100vh;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+.nav-div {
+    margin-left: 2%;
+    position: absolute;
+    background-color: transparent;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-div-phone {
+    margin-left: 2%;
+    position: absolute;
+    background-color: transparent;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.content {
+    margin: 3%;
+    margin-left: 6%;
+}

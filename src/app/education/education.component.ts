@@ -1,17 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-education',
+  templateUrl: './education.component.html',
+  styleUrls: ['./education.component.css']
 })
-export class AppComponent {
-  title = 'portfolio';
-  color: string = 'primary'
-  currentR?: string;
+export class EducationComponent {
 
   isPhoneviewed = false;
 
@@ -35,5 +30,18 @@ export class AppComponent {
       });
   }
 
+  step = 0;
+
+  setStep(index: number) {
+    this.step = index;
+  }
+
+  nextStep() {
+    this.step++;
+  }
+
+  prevStep() {
+    this.step--;
+  }
 
 }

@@ -1,17 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 
 
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.css']
 })
-export class AppComponent {
-  title = 'portfolio';
-  color: string = 'primary'
-  currentR?: string;
+export class ExperienceComponent {
 
   isPhoneviewed = false;
 
@@ -34,6 +31,6 @@ export class AppComponent {
 
       });
   }
-
-
+  
+  
 }

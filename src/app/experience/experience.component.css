@@ -1,0 +1,40 @@
+.e-content {
+    margin: 2%;
+    margin-left: 4%;
+    padding: 3%;
+}
+
+.desc {
+    font-size: larger;
+    background-color: transparent;
+    color: #bdecee;
+    width: 60vw;
+    height: 40vh;
+}
+
+.mat-step-icon-content  {
+    display: none;
+}
+
+.marked {
+    color: #006064;
+
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+/* .e-content-phone {
+
+} */
+
+.desc-phone {
+    color: #bdecee;
+    height: 50vh;
+}
